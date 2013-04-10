@@ -1,0 +1,35 @@
+---
+layout: doc
+category: docs
+title: Getting Help
+permalink: /docs/getting-help.html
+---
+
+          <h2>Crowbar IRC Channel</h2>
+          <p>The channel is
+            <code>#crowbar</code>on
+            <a href="http://freenode.net/">FreeNode</a> .</p>
+          <ul>
+            <li>You can
+              <a href="irc://irc.freenode.net/#crowbar">connect via the <code>irc.freenode.net</code> server</a> , or via
+              <a href="http://webchat.freenode.net/?channels=crowbar">webchat</a> 
+            </li>
+            <li>
+              <a href="http://crowbar.newgoliath.com/irc/#home">Channel logs</a> are also available.</li>
+          </ul>
+          <h2>Crowbar Mailing List</h2>
+          <p>Crowbar mailing list:
+            <a href="http://lists.us.dell.com/mailman/listinfo/crowbar">http://lists.us.dell.com/mailman/listinfo/crowbar</a> (ignore any SSL certificate warnings).</p>
+          <p>All communication to members who are subscribed to the list can go to
+            crowbar@lists.us.dell.com. However, the mailing server is configured so
+            that the “From” header will appear as crowbar@dell.com (instead of crowbar@lists.us.dell.com),
+            and so all sub-sequent replies to this address will fail since it does
+            not exist in the Dell corporate Exchange servers.</p>
+          <p>We are working to address this issue and it should be resolved by launch.</p>
+          <h2>Crowbar Wiki</h2>
+          <p>There's also an available Wiki (hosted on Github) with much more information,
+            tips &amp; tricks. If there's something missing, please create a ticket
+            or just add it yourself.
+            <a href="https://github.com/crowbar/crowbar/wiki">The wiki is available here.</a> 
+          </p>
+

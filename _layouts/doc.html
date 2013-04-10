@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+  
+  <head>
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link href="/css/genericons.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="/themes/inspiritas/inspiritas.css">
+    <link rel="stylesheet" href="https://djyhxgczejc94.cloudfront.net/builds/80037b02082b29f5f9cea127cab2a4ba4365ec67.css">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  </head>
+  
+  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="/themes/inspiritas/inspiritas.css">
+    <link rel="stylesheet" href="https://djyhxgczejc94.cloudfront.net/builds/80037b02082b29f5f9cea127cab2a4ba4365ec67.css">
+    <link rel="stylesheet" href="/css/divshot-util.css">
+    <link rel="stylesheet" href="/css/divshot-canvas.css">
+{% include header.inc %}
+    <div class="container">
+<!--      <a class="btn btn-large btn-primary btn-block visible-phone" href="#"><span class="btn-label">Sign Up Today!</span></a> -->
+      <div class="row">
+        <div class="span4">
+          <ul class="nav nav-stacked nav-list">
+            <li class="nav-header">USERS</li>
+            <li>
+              <a href="/docs/getting-started/">Getting Started</a>
+                {% if page.url contains "/docs/getting-started/" %}
+                <ul class="nav nav-stacked nav-list">
+                  <li><a href="/docs/getting-started/config-network.html">Configuring the Network</a></li>
+                  <li><a href="/docs/getting-started/install-admin-node.html">Installing the Admin Node</a></li>
+                  <li><a href="/docs/getting-started/install-crowbar.html">Installing Crowbar</a></li>
+                  <li><a href="/docs/getting-started/discover-nodes.html">Discovering Nodes</a></li>
+                  <li><a href="/docs/getting-started/install-openstack.html">Installing OpenStack</a></li>
+                  <li><a href="/docs/getting-started/install-hadoop.html">Installing Hadoop</a></li>
+                  <li><a href="/docs/getting-started/troubleshooting.html">Troubleshooting the Installation</a></li>
+
+
+                </ul>
+                {% endif %}
+            </li>
+
+<!--            <li>
+              <a href="#">User Guide</a> 
+            </li>
+            <li>
+              <a href="#">Deployment Guide</a> 
+            </li>
+            <li>
+              <a href="#">Troubleshooting</a> 
+            </li>
+            <li class="divider"></li>
+-->
+            <li class="nav-header">Developers</li>
+<!--            <li>
+              <a href="#">Development Guide</a> 
+            </li>
+            <li>
+              <a href="#">Barclamps</a> 
+            </li>
+-->
+            <li>
+              <a href="/docs/testing.html">Testing</a> 
+            </li>
+<!--            <li>
+              <a href="#">Contributing</a> 
+            </li>
+-->
+            <li class="divider"></li>
+<!-- TODO: fix this           <li class="active">
+              <a href="#">Getting Help</a> 
+            </li>
+-->
+            <li>
+              <a href="/docs/getting-help.html">Getting Help</a> 
+            </li>
+
+            <li>
+              <a href="/docs/faq.html">FAQ</a> 
+            </li>
+<!--            <li>
+              <a href="#">Release Notes</a> 
+            </li>
+-->
+          </ul>
+        </div>
+        <div class="span8">
+          <p></p>
+		      {% include edit_button.inc %} {{ content }}
+          <p></p>
+        </div>
+      </div>
+      {% include footer.inc %}
+    </div>
+  </body>
+
+</html>

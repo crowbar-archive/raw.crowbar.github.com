@@ -1,0 +1,3 @@
+safe: false
+# when you're behind a proxy set it here
+# proxy-server: http://localhost:8123/

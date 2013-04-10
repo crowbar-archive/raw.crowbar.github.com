@@ -1,0 +1,40 @@
+---
+layout: home
+category: home
+title: The Crowbar Project Home
+permalink: /home.html
+---        
+
+
+
+<div></div>
+        <h1>The Crowbar Project</h1>
+        <p>The Crowbar Project is an effort to build a complete, easy to use operational
+          platform for everyone. It allows for any number of physical nodes to be
+          moved from bare-metal to production cluster within hours. Specific applications
+          include (but are not limited to) Hadoop and OpenStack.</p>
+        <p></p>
+      </div>
+      <a class="btn btn-large btn-primary btn-block visible-phone" href="#"><span class="btn-label">Sign Up Today!</span></a>
+      <div class="row main-features">
+        <div class="span4">
+          <div class="well">
+            <h3>Get Started</h3>
+            <p>Want to try Crowbar yourself, go here.</p>
+            <a class="btn btn-primary" href="/docs/getting-started/"><span class="btn-label">Find Out More</span></a> 
+          </div>
+        </div>
+        <div class="span4">
+          <div class="well">
+            <h3>Get Help</h3>
+            <p>IRC, Mailing List, Documentation</p>
+            <a class="btn btn-info" href="/docs/getting-help.html"><span class="btn-label">Find Out More</span></a> 
+          </div>
+        </div>
+        <div class="span4">
+          <div class="well">
+            <h3>Get Serious</h3>
+            <p>Report a Bug, trying to Contribute</p>
+            <a class="btn btn-success" href="/issues.html"><span class="btn-label">Find Out More</span></a> 
+          </div>
+        </div>
