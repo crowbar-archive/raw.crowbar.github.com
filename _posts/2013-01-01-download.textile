@@ -1,0 +1,38 @@
+---
+layout: doc
+category: docs
+title: Downloads
+permalink: /download/index.html
+
+
+#content-url: '[
+#    "https://raw.github.com/crowbar/barclamp-crowbar/master/doc/devguide/devtool-build.md"]'
+
+#edit-url: https://github.com/crowbar/barclamp-crowbar/edit/master/doc/devguide/devtool-build.md
+
+#add-content: top
+
+
+---
+<h1>Downloads</h1>
+
+When Crowbar was first envisioned one of the key requirements was for it to function without any outside internet connectivity. This means everything you need to roll out your application of choice (Hadoop or OpenStack) comes on a single ISO image. Depending on your choice of application, Crowbar is currently made available in two different variants:
+
+<div class="row-fluid">
+<div class="span6">
+<b>Cloudera Hadoop powered by Crowbar</b>
+This configuration runs atop of CentOS 6.x and deploys Cloudera Hadoop into a clustered application.
+
+<a href="https://sourceforge.net/projects/crowbar/files/hadoop/" class="btn btn-success btn-medium">Download Hadoop</a>
+</div>
+
+<div class="span6">
+<b>OpenStack powered by Crowbar</b>
+This configuration runs atop of Ubuntu 12.04 LTS and deploys OpenStack into a clustered application.
+
+<a href="https://sourceforge.net/projects/crowbar/files/openstack/" class="btn btn-success btn-medium">Download OpenStack</a>
+</div>
+</div>
+<p/>
+<p/>
+Pre-packaged builds are made available on an irregular basis, we'll soon be switching to a more regular cadence. Until then you might choose to follow <a href="/docs/build-crowbar.html">these insturctions to create your own build using the Github source</a>

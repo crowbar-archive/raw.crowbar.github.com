@@ -11,14 +11,14 @@
                 <a href="/docs/getting-help.html">Docs</a> 
               </li>
               <li {% if page.category == "bugs" %}class="active"{% endif %}>
-                <a href="/issues.html">Bugs</a> 
+                <a href="/issues.html">Issues</a> 
               </li>
               <li {% if page.category == "screenshots" %}class="active"{% endif %}>
                 <a href="javascript:void(0);" onclick="alert('Coming Soon')">Screenshots</a> 
               </li>
             </ul>
           </div>
-          <a href="http://crowbar.zehicle.com/" class="btn pull-right btn-success btn-large">Download</a>
+          <a href="/download/" class="btn pull-right btn-success btn-large">Download</a>
         </div>
       </div>
     </div>
