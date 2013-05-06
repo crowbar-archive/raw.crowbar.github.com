@@ -16,7 +16,8 @@ permalink: /download/index.html
 ---
 <h1>Downloads</h1>
 
-When Crowbar was first envisioned one of the key requirements was for it to function without any outside internet connectivity. This means everything you need to roll out your application of choice (Hadoop or OpenStack) comes on a single ISO image. Depending on your choice of application, Crowbar is currently made available in two different variants:
+When Crowbar was first envisioned one of the key requirements was for it to function without any outside internet connectivity. This means everything you need to roll out your application of choice <b>(Hadoop or OpenStack) comes on a single ISO image</b>. Depending on your choice of application, Crowbar is currently made available in two different variants.<br/>
+Each variant is available in an unstable and stable format. While we try to deliver quality, <b>unstable releases are expected to contain issues/bugs</b>. Please check/report them via the <a href="/issues.html">documented channels</a>. If you want limit potential issues please use stable releases.
 
 <div class="row-fluid">
 <div class="span6">
