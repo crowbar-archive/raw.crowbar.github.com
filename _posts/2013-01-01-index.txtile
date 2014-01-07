@@ -10,8 +10,8 @@ permalink: /home.html
 <div></div>
         <h1>The Crowbar Project</h1>
         <p>The Crowbar Project is an effort to build a complete, easy to use operational
-          platform for everyone. It allows for any number of physical nodes to be
-          moved from bare-metal to production cluster within hours. Specific applications
+          platform for everyone. It allows for groups of physical nodes to be
+          transformed from bare-metal into production services within hours. Specific applications
           include (but are not limited to) Hadoop and OpenStack.</p>
         <p></p>
       </div>
